@@ -25,8 +25,19 @@ img{
 footer{
     grid-column-start: 1;
     grid-column-end: 5;
-    grid-row-start: 7;
-    grid-row-end: 8; 
+    background-color: hsl(168, 34%, 61%);
+}
+
+footer img{
+    width: 6rem;
+}
+
+.nav2 ul{
+list-style: none;
+}
+
+.nav2 li{
+    display: inline-flex;
 }
 
 .container{
@@ -100,14 +111,6 @@ h1{
 }
 
 
-
-/* .transform-image{
-    grid-column-start: 3;
-    grid-column-end: 5; 
-    grid-row-start: 2;
-    grid-row-end: 3; 
-} */
-
 .stand-out{
     grid-column-start: 3;
     grid-column-end: 5;
@@ -173,3 +176,53 @@ color:hsl(167, 40%, 24%);
 .typeA h3, .typeB h3{
     font-size:2rem;
 }
+.testi{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    padding: 10% 15%;
+}
+
+.testi h3{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0 0 5% 0;
+    color:hsl(210, 4%, 67%);
+}
+
+.testimonials{
+    grid-column-start:1;
+    grid-column-end:5;
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.testimonials img{
+    width:60px;
+    height: 60px;
+    border-radius: 50%;
+    justify-content: center;
+}
+
+.testimonials p{
+    color: hsl(213, 9%, 39%);
+    line-height: 1.7rem;
+}
+
+.job-title{
+    color:hsl(210, 4%, 67%) !important;
+    font-size: 0.8rem;
+}
+
+.author-1{
+    padding: 0 6% 0 0;
+}
+.author-2{
+    padding: 0 6%;
+}
+.author-3{
+    padding: 0  0 0 6%;
+}
+
+
+
